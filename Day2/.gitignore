@@ -1,0 +1,5 @@
+# Dependencies - Never commit these; they are too large and can be reinstalled
+node_modules/
+
+# Environment Variables - Important for security (contains API keys, passwords)
+.env
