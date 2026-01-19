@@ -6,6 +6,7 @@ import User from "../models/user.model.js";
 
 // Create user
 export const createUser = async (req, res) => {
+//    res.send('Hello from createUser'); 
     try {
         const user = await User.create(req.body);
         res.status(201).json(user);
